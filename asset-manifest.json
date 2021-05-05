@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/dev-dheeraj/onlinecoupons/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/dev-dheeraj/onlinecoupons/static/js/main.01127bf4.chunk.js",
-    "main.js.map": "/dev-dheeraj/onlinecoupons/static/js/main.01127bf4.chunk.js.map",
-    "runtime-main.js": "/dev-dheeraj/onlinecoupons/static/js/runtime-main.9d6b39fd.js",
-    "runtime-main.js.map": "/dev-dheeraj/onlinecoupons/static/js/runtime-main.9d6b39fd.js.map",
-    "static/js/2.d78b65c3.chunk.js": "/dev-dheeraj/onlinecoupons/static/js/2.d78b65c3.chunk.js",
-    "static/js/2.d78b65c3.chunk.js.map": "/dev-dheeraj/onlinecoupons/static/js/2.d78b65c3.chunk.js.map",
-    "static/js/3.4301d2f3.chunk.js": "/dev-dheeraj/onlinecoupons/static/js/3.4301d2f3.chunk.js",
-    "static/js/3.4301d2f3.chunk.js.map": "/dev-dheeraj/onlinecoupons/static/js/3.4301d2f3.chunk.js.map",
-    "index.html": "/dev-dheeraj/onlinecoupons/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/dev-dheeraj/onlinecoupons/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.d78b65c3.chunk.js.LICENSE.txt": "/dev-dheeraj/onlinecoupons/static/js/2.d78b65c3.chunk.js.LICENSE.txt"
+    "main.css": "/onlinecoupons/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/onlinecoupons/static/js/main.01127bf4.chunk.js",
+    "main.js.map": "/onlinecoupons/static/js/main.01127bf4.chunk.js.map",
+    "runtime-main.js": "/onlinecoupons/static/js/runtime-main.282db8fa.js",
+    "runtime-main.js.map": "/onlinecoupons/static/js/runtime-main.282db8fa.js.map",
+    "static/js/2.d78b65c3.chunk.js": "/onlinecoupons/static/js/2.d78b65c3.chunk.js",
+    "static/js/2.d78b65c3.chunk.js.map": "/onlinecoupons/static/js/2.d78b65c3.chunk.js.map",
+    "static/js/3.4301d2f3.chunk.js": "/onlinecoupons/static/js/3.4301d2f3.chunk.js",
+    "static/js/3.4301d2f3.chunk.js.map": "/onlinecoupons/static/js/3.4301d2f3.chunk.js.map",
+    "index.html": "/onlinecoupons/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/onlinecoupons/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.d78b65c3.chunk.js.LICENSE.txt": "/onlinecoupons/static/js/2.d78b65c3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.9d6b39fd.js",
+    "static/js/runtime-main.282db8fa.js",
     "static/js/2.d78b65c3.chunk.js",
     "static/css/main.9d5b29c0.chunk.css",
     "static/js/main.01127bf4.chunk.js"
