@@ -16,7 +16,7 @@ export default function Navbar() {
         Home
       </a>
       {/* <a href="/contact">Contact</a> */}
-      <a href="/form/uploadcoupon">Upload Coupons</a>
+      <a href="/uploadcoupon">Upload Coupons</a>
       <button
         className=""
         style={{

@@ -16,8 +16,8 @@ function App() {
         <Navbar />
         <header className="App-header">
           <Switch>
-            <Route exact path="/" component={Homepage} />
-            <Route path="/form/uploadcoupon" component={UploadCouponsForm} />
+            <Route exact path="/onlinecoupons" component={Homepage} />
+            <Route path="/uploadcoupon" component={UploadCouponsForm} />
             <Route path="/coupon/:category" component={SelectedCouponList} />
           </Switch>
         </header>
