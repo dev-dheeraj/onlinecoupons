@@ -2,7 +2,7 @@ import { Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import UploadCouponsForm from "./couponsDetails/UploadCouponsForm";
 import SelectedCouponList from "./couponsList/SelectedCouponList";
-import Homepage from "./landingPage/Homepage";
+import Mainpage from "./landingPage/Mainpage";
 import Navbar from "./_components/Navbar";
 import history from "./_helpers/history";
 // import { createBrowserHistory } from "history";
@@ -16,7 +16,7 @@ function App() {
         <Navbar />
         <header className="App-header">
           <Switch>
-            <Route exact path="/onlinecoupons" component={Homepage} />
+            <Route exact path="/" component={Mainpage} />
             <Route path="/uploadcoupon" component={UploadCouponsForm} />
             <Route path="/coupon/:category" component={SelectedCouponList} />
           </Switch>

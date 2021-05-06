@@ -1,4 +1,5 @@
 import React from "react";
+import history from "../_helpers/history";
 
 export default function Navbar() {
   const handleNavbarIconClick = () => {
@@ -9,24 +10,31 @@ export default function Navbar() {
       x.className = "topnav";
     }
   };
+  const handleClick = (url) => {
+    history.push(url);
+  };
 
   return (
     <div className="topnav" id="commonTopnav">
-      <a href="/" className="active">
+      <button className="btn btn-info" onClick={() => handleClick("/")}>
         Home
-      </a>
-      {/* <a href="/contact">Contact</a> */}
-      <a href="/uploadcoupon">Upload Coupons</a>
+      </button>
       <button
-        className=""
-        style={{
-          background: "#04aa6d",
-          color: "white",
-          position: "absolute",
-          right: 0,
-          height: "8%",
-          width: "30%",
-        }}
+        className="btn btn-info"
+        onClick={() => handleClick("/uploadcoupon")}
+      >
+        upload
+      </button>
+      <button
+        className="icon btn btn-info"
+        // style={{
+        //   background: "#04aa6d",
+        //   color: "white",
+        //   position: "absolute",
+        //   right: 0,
+        //   height: "8%",
+        //   width: "30%",
+        // }}
         onClick={() => handleNavbarIconClick()}
       >
         {" "}
